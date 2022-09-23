@@ -28,7 +28,7 @@ public class U2L2Runner {
         totalArea = rectCustom.calculateArea() + square.calculateArea() + rectDefault.calculateArea();
 
         // Print
-        System.out.println("The total length in fencing (in feet) needed to enclose all three plots of land is " + perimeterSum + " feet.");
-        System.out.println("The total area (in square feet) that will need seeding is " + totalArea + " square feet.");
+        System.out.println("The total length in fencing needed to enclose all three plots of land is " + perimeterSum + " feet.");
+        System.out.println("The total area that will need seeding is " + totalArea + " square feet.");
     }
 }
